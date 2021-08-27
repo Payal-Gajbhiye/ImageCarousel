@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Image Carousel</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="images fade">
+        <img
+          src="https://github.com/iamcodefoxx/ImageCarousel/blob/main/Lam0.jpg?raw=true"
+          width="100%"
+        />
+      </div>
+      <div class="images fade">
+        <img
+          src="https://github.com/iamcodefoxx/ImageCarousel/blob/main/Lam1.jpg?raw=true"
+          width="100%"
+        />
+      </div>
+      <div class="images fade">
+        <img
+          src="https://github.com/iamcodefoxx/ImageCarousel/blob/main/Lam2.jpg?raw=true"
+          width="100%"
+        />
+      </div>
+      <div class="images fade">
+        <img
+          src="https://github.com/iamcodefoxx/ImageCarousel/blob/main/Lam3.jpg?raw=true"
+          width="100%"
+        />
+      </div>
+      <div class="images fade">
+        <img
+          src="https://github.com/iamcodefoxx/ImageCarousel/blob/main/Lam4.jpg?raw=true"
+          width="100%"
+        />
+      </div>
+      <div class="images fade">
+        <img
+          src="https://github.com/iamcodefoxx/ImageCarousel/blob/main/Lam6.jpg?raw=true"
+          width="100%"
+        />
+      </div>
+      <div class="images fade">
+        <img
+          src="https://github.com/iamcodefoxx/ImageCarousel/blob/main/Lam7.jpg?raw=true"
+          width="100%"
+        />
+      </div>
+      <i id="prev" onclick="showImage(-1)" class="fas fa-chevron-left"></i>
+      <i id="next" onclick="showImage(1)" class="fas fa-chevron-right"></i>
+      <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
